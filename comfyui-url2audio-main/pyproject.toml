@@ -1,0 +1,9 @@
+[project]
+name = "comfyui-url2audio"
+description = "ComfyUI custom node — load AUDIO from a public URL. Bypasses torchcodec entirely. Multi-backend: torchaudio / soundfile / ffmpeg."
+version = "1.0.0"
+license = { text = "MIT" }
+dependencies = ["requests", "soundfile"]
+
+[project.urls]
+Repository = "https://github.com/PauldeLavallaz/comfyui-url2audio"
